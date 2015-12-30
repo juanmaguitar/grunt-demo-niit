@@ -1,0 +1,239 @@
+.clear-ideas-gruntfile.smallcode {
+	ul ul li code { font-size:16px; }
+	pre {
+		margin-top:20px;
+		margin-left:100px;
+		code:before { margin:0;}
+	}
+}
+
+#contents {
+	h2 { margin-bottom:45px;}
+	.icon-keyboard:before, 	.icon-laptop:before {
+		margin-left: 52px;
+		margin-right: -15px;
+	}
+}
+
+.slide h2 {
+	font-size:40px;
+}
+
+[class^="icon-"] {
+	font-family: "Open Sans",sans-serif;
+	&:before {
+		font-family: FontAwesome;
+	}
+}
+
+.not-alone {
+	ul {
+		ul {
+			margin-top:10px;
+			margin-left:30px;
+			li {
+				position:relative;
+				margin-left:-60px;
+				margin-bottom:10px;
+			}
+		}
+	}
+}
+
+.devicons {
+	&.devicons-java {
+		top:6px;
+	}
+	&.devicons-php {
+		top:10px;
+	}
+	&.devicons-python {
+		top:10px;
+	}
+	width: 30px;
+	height:30px;
+	font-size:40px;
+	display:block-inline;
+	margin-left:-45px;
+	padding-left:10px;
+	position:relative;
+	&:before {
+		margin-right:20px;
+	}
+
+
+}
+
+a[class|=icon] {
+	font-size: 1.3em;
+	background: none;
+	text-decoration: none;
+	width:auto !important;
+	&:before { margin-right:10px; }
+}
+
+.clear-ideas.small {
+	ol,ul {
+		font-size:.9em;
+	}
+}
+
+.no-bullet-list {
+	ul {
+		& > li:before {
+			content:'';
+		}
+	}
+}
+.section {
+	h1 {
+		margin-top:100px;
+		font-size:4em;
+		text-align: center;
+
+	}
+}
+
+h6 {
+	color: #ccc;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+#Cover {
+	& {
+		background: url("../img/logo-NIIT-white.png") no-repeat scroll right 430px top 375px #E48632;
+		background-size: 15%;
+	}
+	& > div {
+		top: 0;
+	}
+	img {
+		position: absolute;
+		top: 150px;
+		left: 100px;
+	}
+	h2,h3 {
+		color: #453015;
+		font-family: "Lato",Helvetica,Arial,sans-serif;
+		position: absolute;
+	}
+	h2 {
+		top: 190px;
+		left: 430px;
+		font-size: 3.2em;
+		font-weight: bolder;
+	}
+	/*
+	h3 {
+		top: 400px;
+		left: 710px;
+		font-size: 1.7em;
+		font-style:italic;
+	}
+	*/
+}
+
+
+
+.what {
+	blockquote {
+		margin-top:1.2em;
+		font-size : 3em;
+	}
+}
+
+.what2 {
+	blockquote {
+		margin-top:2em;
+		font-size :2em;
+	}
+}
+
+.what3 {
+	blockquote {
+		p {
+			line-height: 1.5em;
+		}
+		margin-top:2em;
+		font-size :2em;
+	}
+}
+
+.two-columns-list {
+
+	$max-column-items: 10; /* The maximum number of items a single column can handle.  If a column has more items than the maximum defined here, some items won't display. */
+	$line-height: 1.5;
+	$list-font-size: 16px;
+
+	ol {
+	  position: relative;
+	  margin: 0 0 50px;
+	  padding: 0;
+	  font-size: $list-font-size;
+	}
+
+	ol li {
+	  position: absolute;
+	  margin: 0;
+	  padding: 0;
+	  width: 50%;
+	  list-style-position: inside;
+	  line-height: $line-height;
+	}
+
+	@for $i from 2 through $max-column-items{
+		ol li:nth-child( n+#{$i} ) {
+			top: $line-height * ($i - 1) + em; /* line height is equal to the absolute position top for all items. will only effect first column because overridden later*/
+		}
+	}
+
+	@for $i from 2 through $max-column-items {
+		ol li:nth-child(n+#{$i + 1}):nth-last-child(-n+#{$i}) {
+			position: static;
+			margin-left: 50%;
+		}
+	}
+}
+
+.slide  {
+	ol, ul {
+		margin-bottom: 10px;
+	}
+	p {
+		display: inline;
+	}
+	& {
+		background: url("../img/_NIIT_logo.png") no-repeat top 25px right 25px #FFF;
+
+	}
+
+}
+
+.showterm {
+	a {
+		margin:0;
+		float:right;
+/*		background: none; */
+	}
+}
+
+.smallcode  {
+	h2 {
+		margin-bottom:25px;
+	}
+	pre {
+		margin-left:50px;
+		code {
+			line-height: 1.5;
+			font-size: 14px;
+		}
+	}
+	&.smaller {
+		pre code {
+			font-size: 12px;
+		}
+
+	}
+}

@@ -1,18 +1,18 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
-# Workshop "Getting started w/ Grunt" (Ironhack 2015) #
+# Workshop "First Steps w/ Grunt" (NIIT Mini Demo) #
 
 ## Description ##
 
-This repository contains the materials used in the workshop "Getting started w/ Grunt" done for [Ironhack](http://www.ironhack.com/en/) on 26th February 2015 as part of their [Web Development Bootcamp](http://www.ironhack.com/en/)
+This repository contains the materials used for the mini-demo done for [NIIT](http://www.niit.com/en/learning-outsourcing) on December 2015
 
 ## Training Goals ##
 
-Know what [Grunt](http://gruntjs.com/) is, why it's useful and how to use it in our own projects
+Knowing what [Grunt](http://gruntjs.com/) is and how can we start using it
 
 ## Materials ##
 
-You can access to the presentation used in the workshop from the URL : [http://juanmaguitar.github.io/grunt-workshop/](http://juanmaguitar.github.io/grunt-workshop/)
+You can access to the presentation used in the workshop from the URL : [http://juanmaguitar.github.io/grunt-demo-niit/](http://juanmaguitar.github.io/grunt-demo-niit/)
 
 ## Some tips for the workshop
 

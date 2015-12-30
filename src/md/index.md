@@ -1,4 +1,4 @@
-# Getting started with Grunt
+# First steps with GRUNT
 
 by [JuanMa Garrido](#trainer)
 
@@ -8,7 +8,7 @@ by [JuanMa Garrido](#trainer)
 
 ![Grunt Logo](img/grunt-logo.png)
 
-## Getting started with GRUNT
+## First steps with GRUNT
 
 <!-- ######################## TEACHER ######################## --> 
 
@@ -136,7 +136,7 @@ $ git --version
 $ node -v
 $ npm -v
 $ npm install -g grunt-cli
-$ git clone https://github.com/juanmaguitar/grunt-workshop.git
+$ git clone https://github.com/juanmaguitar/grunt-demo-niit.git
 $ cd grunt-workshop
 $ npm install
 $ grunt --version
@@ -152,7 +152,7 @@ $ grunt serve
 
 !SLIDE
 
-##More info
+## More info
 
 - [Grunt | Official Site](http://gruntjs.com/)
 - [Introducing Grunt | Boucup](http://bocoup.com/weblog/introducing-grunt/)
